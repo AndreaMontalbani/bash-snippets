@@ -128,5 +128,11 @@
 			"done"
 		],
 		"description": "Creates a loop echoing all indexes in a range"
+	},"randinrange": {
+		"prefix": "randinrange",
+		"body": [
+			"shuf -i ${0:start}-${1:end} -n 1"
+		],
+		"description": "Creates a loop echoing all indexes in a range"
 	}
 }
