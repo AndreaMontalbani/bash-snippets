@@ -16,6 +16,10 @@ Just a few snippets to make shellscript dev easier
 - until : until
 - main : main
 - const : const
+- array : array definition
+- forarray: for loop on array elements
+- forindex: for loop on array by index
+- randinrange: use shuf to generate integer in range
 - todo : TODO
 
 ## Known Issues
